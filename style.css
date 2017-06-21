@@ -1,0 +1,36 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*background-color: grey;*/
+	border: 1px solid green;
+	margin: 10px auto;
+	align-items: flex-start;
+}
+.box{
+	flex:1;
+	padding: 10px;
+	margin-left: 10px;
+	color: black;
+	/*border: 1px solid green;*/
+	/*background: orange;*/
+	text-align: justify;
+	
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+}
+.p{
+	text-align: justify;
+	color: blue;
+	font-style: bold;
+	font-size: 20px;
+	font-family: arial;
+}
+/*.img.p{
+	flex:1;
+	flex-basis: 50%;
+	text-align: center;
+}*/
